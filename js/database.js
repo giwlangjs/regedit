@@ -31,7 +31,7 @@ getList().then((database) => {
                     <small class="text-muted d-block mt-3">${getTimeDifference(database[i].details.date)}</small>
                 </div>
                 <div>
-                    <a class="btn btn-primary" href="${database[i].download}">Download</a>
+                    <a class="btn btn-primary" href="https://semawur.com/st/?api=0e0289e29b1516500e810b11cae46a1bafef9059&url=${database[i].download}">Download</a>
                 </div>
             </div>
         </div>
