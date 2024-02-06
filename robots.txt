@@ -1,3 +1,12 @@
 User-agent: *
 Allow: /
 Sitemap: https://giwlangjs.github.io/regedit/sitemap.xml
+
+User-agent: Googlebot
+Allow: *
+
+User-agent: Googlebot-Image
+Allow: *
+
+User-agent: yahoo-blogs
+Allow: *
