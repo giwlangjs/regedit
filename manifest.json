@@ -5,8 +5,8 @@
   "background_color": "#fff",
   "display": "fullScreen",
   "orientation": "portrait",
-  "scope": "/",
-  "start_url": "/",
+  "scope": "/regedit",
+  "start_url": "/regedit",
   "icons": [
     {
       "src": "images/icon/icon-72x72.png",
