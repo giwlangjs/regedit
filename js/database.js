@@ -27,7 +27,7 @@ getList().then((database) => {
                     <p class="card-text">${database[i].description}</p>
                     ${database[i].details.isBanned ? '<span class="badge bg-danger">Banned</span>' : '<span class="badge bg-success">No Banned</span>'}
                     ${database[i].details.isFFMax ? '<span class="badge bg-primary">FFMAX</span>' : ''}
-                    ${database[i].details.isFFBiasa ? '<span class="badge bg-dark">FF BIASA</span>' : ''}
+                    ${database[i].details.isFFBiasa ? '<span class="badge bg-dark">FF ORI</span>' : ''}
                     <small class="text-muted d-block mt-3">${getTimeDifference(database[i].details.date)}</small>
                 </div>
                 <div>
