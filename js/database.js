@@ -1,6 +1,6 @@
 async function getList() {
   try {
-    const response = await fetch('https://rose-firefly-belt.cyclic.app/api/view');
+    const response = await fetch('https://listrege.vercel.app/api/view');
 
     if (!response.ok) {
       throw new Error(`Error: ${response.status} - ${response.statusText}`);
